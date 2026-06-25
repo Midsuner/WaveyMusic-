@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+*.tsbuildinfo
+
+# Tauri
+packages/desktop/src-tauri/target/
+
+# Flutter
+packages/mobile/build/
+packages/mobile/.dart_tool/
+packages/mobile/.packages
+packages/mobile/.pub/
+packages/mobile/pubspec.lock
+packages/mobile/android/.gradle/
+packages/mobile/android/app/build/
+packages/mobile/ios/Pods/
+
+# Env
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-data/
+pgdata/
+
+# Audio / temp
+*.mp3
+*.flac
+*.wav
+*.ogg
+!packages/api/scripts/seed/*.mp3
+
+# Misc
+.cache/
+tmp/
